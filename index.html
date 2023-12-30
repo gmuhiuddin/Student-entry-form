@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-entry-form</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhfTpUFyuBc4soJ-2OOcgMttIZV2l6Uo0f_g&usqp=CAU"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="login-form">
+            <span class="heading">Login</span>
+            <br>
+            <label for="roll-no-input">Roll number<span class="important-txt">*</span></label>
+            <input required type="number" class="roll-no-input" />
+            <br>
+            <label for="pass-input">Password<span class="important-txt">*</span></label>
+            <input minlength="8" maxlength="16" required type="password" class="pass-input" />
+            <br>
+            <br>
+            <button class="login-btn" type="submit">Login</button>
+            <br>
+            <p class="txt">You don`t have an account <span id="register-txt">Register now</span></p>
+        </form>
+        <form id="register-form">
+            <span class="heading">Register</span>
+            <br>
+            <div class="input-containre">
+                <div>
+                    <label class="name-label" for="name-input">Name<span class="important-txt">*</span></label>
+                    <input required type="text" class="name-input" />
+                </div>
+                <div>
+                    <label class="name-label" for="f-name-input">Father name<span class="important-txt">*</span></label>
+                    <input required type="text" class="f-name-input" />
+                </div>
+            </div>
+            <br>
+            <div class="input-containre">
+                <div>
+                    <label for="roll-no-input">Roll number<span class="important-txt">*</span></label>
+                    <input required type="number" class="roll-no-input" />
+                </div>
+                <div>
+                    <label class="create-pass-label" for="pass-input">Create password<span class="important-txt">*</span></label>
+                    <input minlength="8" maxlength="16" required type="password" class="pass-input" />
+                </div>
+            </div>
+            <br>
+            <br>
+            <button class="register-btn" type="submit">Register</button>
+            <br>
+            <p class="txt">You have an account <span id="login-txt">Login</span></p>
+        </form>
+    </div>
+    <div class="container">abc</div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

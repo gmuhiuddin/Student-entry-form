@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(Poppins-Medium.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+}
+
+.form-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form {
+    margin: 29px;
+    padding:  29px 49px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.heading {
+    display: block;
+    text-align: center;
+    font-size: 29px;
+    color: rgb(55, 54, 54);
+}
+
+.important-txt {
+    color: rgb(218, 60, 60);
+    font-size: 19px;
+}
+
+.roll-no-input,
+.pass-input {
+    display: block;
+    width: 59%;
+    height: 4.5vh;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px black;
+    margin: 0 auto;
+    padding: 0 5px;
+    font-size: 19px;
+}
+
+label {
+    display: block;
+    width: 59%;
+    margin: 7px auto;
+    font-size: 19px;
+}
+
+.login-btn {
+    display: block;
+    width: 29%;
+    height: 4.9vh;
+    font-size: 19px;
+    border-radius: 12px;
+    border: none;
+    margin: 0 auto;
+    background-color: rgb(200, 94, 200);
+    color: white;
+    cursor: pointer;
+}
+
+#register-txt , #login-txt{
+    cursor: pointer;
+    color: rgb(134, 77, 171);
+}
+
+.txt {
+    text-align: center;
+}
+
+#register-form{
+    display: none;
+    padding:  29px 39px;
+    margin: 29px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.input-containre{
+    display:flex;
+}
+
+.register-btn{
+    display: block;
+    width: 43%;
+    height: 4.9vh;
+    font-size: 19px;
+    border-radius: 12px;
+    border: none;
+    margin: 0 auto;
+    background-color: rgb(200, 94, 200);
+    color: white;
+    cursor: pointer;
+}
+
+.name-input , .f-name-input{
+    display: block;
+    width: 85%;
+    height: 4.5vh;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px black;
+    margin: 0 auto;
+    padding: 0 5px;
+    font-size: 19px;
+}
+
+.name-label{
+    width: 85% !important;
+}
+
+.create-pass-label{
+    width: 68% !important;
+}
